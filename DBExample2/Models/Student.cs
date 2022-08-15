@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace DBExample2.Models
 {
-    public class Category
+    public class Student
     {
         public int Id { get; set; }
         public string Name { get; set; }
 
-        public virtual ICollection<Product> Products { get; set; } = new List<Product>();
-
+        public ICollection<Teacher> Teachers { get; set; } = new List<Teacher>();
     }
 }

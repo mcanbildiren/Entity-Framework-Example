@@ -22,6 +22,9 @@ namespace DBExample2.Models
         public Category Category { get; set; }
         public int CategoryId { get; set; }
 
+        public virtual ProductFeature ProductFeature { get; set; }
+
+
 
     }
 }
